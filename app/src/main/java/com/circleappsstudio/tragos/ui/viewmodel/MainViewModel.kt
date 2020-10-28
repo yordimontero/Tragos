@@ -10,6 +10,8 @@ import kotlinx.coroutines.launch
 
 class MainViewModel(private val repo : Repo) : ViewModel(){
 
+    //Prueba GIT
+
     private val tragosData = MutableLiveData<String>()
 
     fun setTrago(tragoName: String){

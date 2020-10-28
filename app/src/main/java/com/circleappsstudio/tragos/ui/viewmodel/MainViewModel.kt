@@ -62,14 +62,6 @@ class MainViewModel(private val repo : Repo) : ViewModel(){
 
     }
 
-    /*fun deleteDrink(drink: Drink){
-
-        viewModelScope.launch {
-            repo.deleteDrink(drink)
-        }
-
-    }*/
-
     fun deleteDrink(drink: DrinkEntity){
 
         viewModelScope.launch {

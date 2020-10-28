@@ -12,8 +12,6 @@ interface Repo {
 
     suspend fun insertTrago(trago: DrinkEntity)
 
-    //suspend fun deleteDrink(drink: Drink)
-
     suspend fun deleteDrink(drink: DrinkEntity)
 
 }

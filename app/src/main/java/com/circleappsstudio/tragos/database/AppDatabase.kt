@@ -8,7 +8,7 @@ import com.circleappsstudio.tragos.data.model.DrinkEntity
 import com.circleappsstudio.tragos.domain.TragosDao
 
 @Database(entities = arrayOf(DrinkEntity::class), version = 1)
-abstract class AppDatabase : RoomDatabase() {
+abstract class AppDatabase: RoomDatabase() {
 
     abstract fun tragoDao(): TragosDao
 
